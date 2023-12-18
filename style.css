@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    color: #333;
+    text-align: center;
+}
+
+/*blog*/
+.gallery-images,
+.blog-posts,
+.popular-posts,
+.recent-posts {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blog-posts figure,
+.popular-posts figure,
+.recent-posts figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-images img,
+.blog-posts img,
+.popular-posts img,
+.recent-posts img
+ {
+  width: 350px;
+  height:350px ;
+  margin-bottom: 20px;
+  border-radius:5px ;
+}
+
+
+
+img {
+    height: 350px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+/*tips*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.travel-tips {
+    margin-top: 20px;
+}
+
+.tip {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-info{
+    text-align: center;
+    background-color: #f0f8ff;
+}
+.contact{
+    text-align: center;
+}
+
+.subButton {
+    text-align: center; /* Center the content */
+    padding: 20px;
+}
+
+.subButton input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.subButton button {
+    padding: 10px 20px;
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.footer-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f8ff
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 10px;
+    flex: 1; 
+}
+
+
+.footer-logo p {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.footer-links,
+.footer-social {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+    margin-bottom: 10px;
+}
+
+.footer-social ul img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
